@@ -37,3 +37,35 @@ body{
 .media-body h5{
 	font-weight: bold;
 }
+
+/* Contact Us */
+.contact-section ul{
+	font-size: 1.1rem;
+}
+
+.contact-section ul li i{
+	margin-right: 10px;
+}
+
+.contact-section iframe{
+	border-radius: 10px;
+}
+
+/* Login */
+.login-section .btn-block{
+	width: 100%;
+}
+
+.login-section div.text-center{
+	margin-top: 20px;
+}
+
+.login-section div.text-center a{
+	color: #007bff;
+	text-decoration: none;
+}
+
+/* Register */
+.register-section div.text-center{
+	margin-top: 20px;
+}
