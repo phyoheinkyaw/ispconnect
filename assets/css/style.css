@@ -69,3 +69,19 @@ body{
 .register-section div.text-center{
 	margin-top: 20px;
 }
+
+/*ALL ISP Side Bar*/
+#filterSidebar{
+	position: sticky;
+	top: 80px;
+	z-index: 1000;
+}
+
+#imagePreview{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding-top: 5px;
+	max-width: 60%;
+	display: none;
+}
