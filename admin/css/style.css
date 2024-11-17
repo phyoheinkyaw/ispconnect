@@ -149,3 +149,27 @@ a.sidebar-link{
 .footer-telegram{
 	color: white;
 }
+
+.compact-alert-popup {
+	font-size: 1rem; /* Decrease font size for compactness */
+}
+.compact-alert-title {
+	font-weight: bold;
+	font-size: 1.2rem; /* Smaller title size */
+}
+.compact-confirm-button {
+	padding: 5px 10px; /* Reduce button padding */
+	font-size: 0.9rem;  /* Reduce button font size */
+}
+
+/* Adjust the text size for better visibility on smaller screens */
+@media (max-width: 768px) {
+    #appointmentTable {
+        font-size: 12px; /* Smaller text for mobile */
+    }
+
+    .table-responsive .table td,
+    .table-responsive .table th {
+        white-space: nowrap; /* Prevent text from wrapping to keep table compact */
+    }
+}

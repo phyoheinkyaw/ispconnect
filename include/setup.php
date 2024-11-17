@@ -50,13 +50,14 @@ CREATE TABLE IF NOT EXISTS isp(
 	isp_id int auto_increment primary key,
 	isp_name varchar(100) not null,
 	isp_slogan varchar(255),
-	isp_decription text,
+	isp_description text,
 	isp_available_speeds varchar(100),
 	isp_support_details varchar(100),
 	isp_contract_length varchar(50),
 	isp_availability varchar(100),
 	isp_contact_email varchar(100),
 	isp_contact_phone varchar(20),
+	isp_photo varchar(255),
 	isp_created_at timestamp default current_timestamp
 )";
 
